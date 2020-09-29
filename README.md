@@ -1,4 +1,4 @@
-# Consume Salesforce Objects using Amazon AppFlow, upsert to Redshift using data API
+# Extract Salesforce Objects using Amazon AppFlow, upsert to tables in Redshift running in private subnet using data API
 
 [Amazon AppFlow](https://aws.amazon.com/appflow/) is a fully managed integration service that enables you to securely transfer data between Software-as-a-Service (SaaS) applications like Salesforce, Marketo, Slack, and ServiceNow, and AWS services like Amazon S3 and Amazon Redshift, in just a few clicks. Most customers would run their Redhsift cluster in their private subnet hence AppFlow would not be able to load data to the Redshift cluster running in private subnet. Additionally you may also want to upsert data to your Datawarehouse or Redhsift Cluster as opposed to just insert. 
 
